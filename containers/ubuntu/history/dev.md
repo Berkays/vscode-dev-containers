@@ -11,7 +11,7 @@
 
 ## Variant: jammy
 
-**Digest:** sha256:488d0185f0947f8130d27fe93c5e149cecb00acbec2b03c085b203df190b7918
+**Digest:** sha256:cf86260cb721c019bb7f3344ddc85ba620f326883413248f9dcbf4b3dc32b073
 
 **Tags:**
 ```
@@ -32,29 +32,29 @@ mcr.microsoft.com/vscode/devcontainers/base:dev-ubuntu22.04
 
 | Tool | Commit | Path |
 |------|--------|------|
-| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | 39b600e9e564db3dec265fcf2e3db4b5568dd93a | /home/vscode/.oh-my-zsh |
+| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | 8362ae285a5c227cb20387543483a3597fa31931 | /home/vscode/.oh-my-zsh |
 
 **Additional linux tools and packages**
 
 | Tool / library | Version |
 |----------------|---------|
-| apt-transport-https | 2.4.5 |
-| apt-utils | 2.4.5 |
+| apt-transport-https | 2.4.6 |
+| apt-utils | 2.4.6 |
 | ca-certificates | 20211016 |
-| curl | 7.81.0-1ubuntu1.2 |
+| curl | 7.81.0-1ubuntu1.3 |
 | dialog | 1.3-20211214-1 |
-| git | 1:2.34.1-1ubuntu1.2 |
-| gnupg2 | 2.2.27-3ubuntu2 |
+| git | 1:2.34.1-1ubuntu1.4 |
+| gnupg2 | 2.2.27-3ubuntu2.1 |
 | htop | 3.0.5-7build2 |
 | iproute2 | 5.15.0-1ubuntu2 |
 | jq | 1.6-2.1ubuntu3 |
 | less | 590-1build1 |
-| libc6 | 2.35-0ubuntu3 |
+| libc6 | 2.35-0ubuntu3.1 |
 | libgssapi-krb5-2 | 1.19.2-2 |
 | libicu70 | 70.1-2 |
 | libkrb5-3 | 1.19.2-2 |
 | libstdc++6 | 12-20220319-1ubuntu1 |
-| locales | 2.35-0ubuntu3 |
+| locales | 2.35-0ubuntu3.1 |
 | lsb-release | 11.1.0ubuntu4 |
 | lsof | 4.93.2+dfsg-1.1build2 |
 | man-db | 2.10.2-1 |
@@ -80,7 +80,7 @@ mcr.microsoft.com/vscode/devcontainers/base:dev-ubuntu22.04
 
 ## Variant: focal
 
-**Digest:** sha256:6d3f90b883869cbdd303a23df7fbff919f4481f374de80f1032717851b36fe05
+**Digest:** sha256:11c341e3180a2652ff18ad09822a3b89d8fb219a0954f73a281ca3a32f13415d
 
 **Tags:**
 ```
@@ -102,19 +102,19 @@ mcr.microsoft.com/vscode/devcontainers/base:dev-ubuntu
 
 | Tool | Commit | Path |
 |------|--------|------|
-| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | 39b600e9e564db3dec265fcf2e3db4b5568dd93a | /home/vscode/.oh-my-zsh |
+| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | 8362ae285a5c227cb20387543483a3597fa31931 | /home/vscode/.oh-my-zsh |
 
 **Additional linux tools and packages**
 
 | Tool / library | Version |
 |----------------|---------|
-| apt-transport-https | 2.0.6 |
-| apt-utils | 2.0.6 |
-| ca-certificates | 20210119~20.04.2 |
-| curl | 7.68.0-1ubuntu2.11 |
+| apt-transport-https | 2.0.9 |
+| apt-utils | 2.0.9 |
+| ca-certificates | 20211016~20.04.1 |
+| curl | 7.68.0-1ubuntu2.12 |
 | dialog | 1.3-20190808-1 |
-| git | 1:2.25.1-1ubuntu3.4 |
-| gnupg2 | 2.2.19-3ubuntu2.1 |
+| git | 1:2.25.1-1ubuntu3.5 |
+| gnupg2 | 2.2.19-3ubuntu2.2 |
 | htop | 2.2.0-2build1 |
 | iproute2 | 5.5.0-1ubuntu1 |
 | jq | 1.6-1ubuntu0.20.04.1 |
@@ -125,7 +125,7 @@ mcr.microsoft.com/vscode/devcontainers/base:dev-ubuntu
 | libicu66 | 66.1-2ubuntu2.1 |
 | libkrb5-3 | 1.17-6ubuntu4.1 |
 | liblttng-ust0 | 2.11.0-1 |
-| libssl1.1 | 1.1.1f-1ubuntu2.13 |
+| libssl1.1 | 1.1.1f-1ubuntu2.16 |
 | libstdc++6 | 10.3.0-1ubuntu1~20.04 |
 | locales | 2.31-0ubuntu9.9 |
 | lsb-release | 11.1.0ubuntu2 |
@@ -153,7 +153,7 @@ mcr.microsoft.com/vscode/devcontainers/base:dev-ubuntu
 
 ## Variant: bionic
 
-**Digest:** sha256:9cf63befbe3bed48e759de61421d5dccbfeb31924d05fed3df1a4840e7f080f0
+**Digest:** sha256:176191f0213fc38edcc8c17f3a7c48a653e610f02404b81859ab533db1fa94a5
 
 **Tags:**
 ```
@@ -174,7 +174,7 @@ mcr.microsoft.com/vscode/devcontainers/base:dev-ubuntu18.04
 
 | Tool | Commit | Path |
 |------|--------|------|
-| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | 39b600e9e564db3dec265fcf2e3db4b5568dd93a | /home/vscode/.oh-my-zsh |
+| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | 8362ae285a5c227cb20387543483a3597fa31931 | /home/vscode/.oh-my-zsh |
 
 **Additional linux tools and packages**
 
@@ -182,25 +182,25 @@ mcr.microsoft.com/vscode/devcontainers/base:dev-ubuntu18.04
 |----------------|---------|
 | apt-transport-https | 1.6.14 |
 | apt-utils | 1.6.14 |
-| ca-certificates | 20210119~18.04.2 |
-| curl | 7.58.0-2ubuntu3.18 |
+| ca-certificates | 20211016~18.04.1 |
+| curl | 7.58.0-2ubuntu3.19 |
 | dialog | 1.3-20171209-1 |
-| git | 1:2.17.1-1ubuntu0.11 |
-| gnupg2 | 2.2.4-1ubuntu1.4 |
+| git | 1:2.17.1-1ubuntu0.12 |
+| gnupg2 | 2.2.4-1ubuntu1.6 |
 | htop | 2.1.0-3 |
 | iproute2 | 4.15.0-2ubuntu1.3 |
 | jq | 1.5+dfsg-2 |
 | less | 487-0.1 |
-| libc6 | 2.27-3ubuntu1.5 |
+| libc6 | 2.27-3ubuntu1.6 |
 | libgcc1 | 1:8.4.0-1ubuntu1~18.04 |
 | libgssapi-krb5-2 | 1.16-2ubuntu0.2 |
 | libicu60 | 60.2-3ubuntu3.2 |
 | libkrb5-3 | 1.16-2ubuntu0.2 |
 | liblttng-ust0 | 2.10.1-1 |
-| libssl1.0.0 | 1.0.2n-1ubuntu5.9 |
-| libssl1.1 | 1.1.1-1ubuntu2.1~18.04.17 |
+| libssl1.0.0 | 1.0.2n-1ubuntu5.10 |
+| libssl1.1 | 1.1.1-1ubuntu2.1~18.04.20 |
 | libstdc++6 | 8.4.0-1ubuntu1~18.04 |
-| locales | 2.27-3ubuntu1.5 |
+| locales | 2.27-3ubuntu1.6 |
 | lsb-release | 9.20170808ubuntu1 |
 | lsof | 4.89+dfsg-0.1 |
 | man-db | 2.8.3-2ubuntu0.1 |
