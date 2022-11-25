@@ -5,7 +5,7 @@ This document describes the base contents of the default GitHub Codespaces dev c
 
 **Source release/branch:** [main](https://github.com/microsoft/vscode-dev-containers/tree/main/containers/codespaces-linux)
 
-**Digest:** sha256:c88d186406fa8925161decc77e4d0bf4a7bbe213df8e12cccfb8b1224ab19e8a
+**Digest:** sha256:4f6b9768c78a08a04de3110f5ca667a3820a3451a036bc6e96f2570e8abf2b95
 
 **Tags:**
 ```
@@ -34,47 +34,47 @@ mcr.microsoft.com/vscode/devcontainers/universal:dev
 | [PHP](https://xdebug.org/) | 8.0.17<br />8.1.4 | /opt/php/&lt;version&gt; |
 | GCC | 9.4.0-1ubuntu1~20.04.1 | 
 | Clang | 10.0.0-4ubuntu1 | 
-| [Go](https://golang.org/dl) | 1.18.4 | /usr/local/go |
+| [Go](https://golang.org/dl) | 1.19 | /usr/local/go |
 | [Jekyll](https://jekyllrb.com/) | 4.2.2 | 
 
 **Tools installed using git**
 
 | Tool | Commit | Path |
 |------|--------|------|
-| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | 8362ae285a5c227cb20387543483a3597fa31931 | /home/codespace/.oh-my-zsh |
+| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | 3668ec2a82250020ca0c285ef8b277f1385a8085 | /home/codespace/.oh-my-zsh |
 | [nvm](https://github.com/nvm-sh/nvm.git) | 3fea5493a431ac64470d4230d4b51438cf213bd1 | /home/codespace/.nvm |
 | [nvs](https://github.com/jasongin/nvs) | bf45ef070e82356ed36a0f4d98f8ec651c8f0d98 | /home/codespace/.nvs |
 | [rbenv](https://github.com/rbenv/rbenv.git) | c4395e58201966d9f90c12bd6b7342e389e7a4cb | /usr/local/share/rbenv |
-| [ruby-build](https://github.com/rbenv/ruby-build.git) | 44c91aa270ebc1d7449e516e7a49ff1ecaf2550c | /usr/local/share/ruby-build |
+| [ruby-build](https://github.com/rbenv/ruby-build.git) | bd08de2e607119a7033c828e2fa0efbc41180d64 | /usr/local/share/ruby-build |
 
 **Pip / pipx installed tools and packages**
 
 | Tool / package | Version |
 |----------------|---------|
 | pylint | 2.14.5 |
-| flake8 | 4.0.1 |
-| autopep8 | 1.6.0 |
+| flake8 | 5.0.4 |
+| autopep8 | 1.7.0 |
 | black | 22.6.0 |
 | yapf | 0.32.0 |
 | mypy | 0.971 |
 | pydocstyle | 6.1.1 |
-| pycodestyle | 2.8.0 |
+| pycodestyle | 2.9.1 |
 | bandit | 1.7.4 |
-| virtualenv | 20.16.2 |
+| virtualenv | 20.16.3 |
 | pipx | 1.1.0 |
 
 **Go tools and modules**
 
 | Tool / module | Version |
 |---------------|---------|
-| golang.org/x/tools/gopls | 0.9.1 |
+| golang.org/x/tools/gopls | 0.9.4 |
 | honnef.co/go/tools | 0.3.2 |
 | golang.org/x/lint | 0.0.0-20210508222113-6edffad5e616 |
-| github.com/mgechev/revive | 1.2.1 |
+| github.com/mgechev/revive | 1.2.3 |
 | github.com/uudashr/gopkgs | 2.0.1+incompatible |
 | github.com/ramya-rao-a/go-outline | 0.0.0-20210608161538-9736a4bde949 |
 | github.com/go-delve/delve | 1.9.0 |
-| github.com/golangci/golangci-lint | 1.47.2 |
+| github.com/golangci/golangci-lint | 1.48.0 |
 
 **Ruby gems and tools**
 
@@ -89,18 +89,18 @@ mcr.microsoft.com/vscode/devcontainers/universal:dev
 
 | Tool | Version | Path |
 |------|---------|------|
-| [git](https://github.com/git/git) | 2.37.1 | /usr/local |
+| [git](https://github.com/git/git) | 2.37.2 | /usr/local |
 | [Xdebug](https://xdebug.org/) | 3.1.4 | /opt/php/lts |
 | [Composer](https://getcomposer.org/) | 2.3.4 | /opt/php-composer |
-| [kubectl](https://github.com/kubernetes/kubectl) | WARNING: This version information is deprecated and will be replaced with the output from kubectl version --short.  Use --output=yaml|json to get the full version.<br />1.24.3 | /usr/local/bin |
-| [Helm](https://github.com/helm/helm) | 3.9.2 | /usr/local/bin |
+| [kubectl](https://github.com/kubernetes/kubectl) | WARNING: This version information is deprecated and will be replaced with the output from kubectl version --short.  Use --output=yaml|json to get the full version.<br />1.24.4 | /usr/local/bin |
+| [Helm](https://github.com/helm/helm) | 3.9.3 | /usr/local/bin |
 | [Docker Compose](https://github.com/docker/compose) | 1.29.2 | /usr/local/bin |
-| [SDKMAN!](https://github.com/sdkman/sdkman-cli) | 5.15.0 | /usr/local/sdkman |
+| [SDKMAN!](https://github.com/sdkman/sdkman-cli) | 5.16.0 | /usr/local/sdkman |
 | [rvm](https://github.com/rvm/rvm) | 1.29.12 | /usr/local/rvm |
-| [GitHub CLI](https://github.com/cli/cli) | 2.14.3 | 
+| [GitHub CLI](https://github.com/cli/cli) | 2.14.4 | 
 | [yarn](https://yarnpkg.com/) | 1.22.15 | /opt/yarn |
 | [Maven](https://maven.apache.org/) | 3.8.5 | /opt/maven |
-| [Gradle](https://gradle.org/) | 7.4.2 | 
+| [Gradle](https://gradle.org/) | 7.5.1 | 
 | Docker (Moby) CLI &amp; Engine | 20.10.17+azure | 
 
 **Additional linux tools and packages**
@@ -175,7 +175,7 @@ mcr.microsoft.com/vscode/devcontainers/universal:dev
 | psmisc | 23.3-1 |
 | python3-dev | 3.8.2-0ubuntu2 |
 | python3-minimal | 3.8.2-0ubuntu2 |
-| rsync | 3.1.3-8ubuntu0.3 |
+| rsync | 3.1.3-8ubuntu0.4 |
 | sed | 4.7-1 |
 | software-properties-common | 0.99.9.8 |
 | strace | 5.5-3ubuntu1 |

@@ -1,3 +1,17 @@
+**IMPORTANT NOTE: We've migrated most of the contents of this repo to the [devcontainers org](https://github.com/devcontainers), as part of the work on the [open dev container specification](https://containers.dev).**
+
+- **Features managed by the dev container spec maintainers are now in [devcontainers/features](https://github.com/devcontainers/features).**
+- **Definitions/Templates managed by the dev container spec maintainers are now in [devcontainers/templates](https://github.com/devcontainers/templates).**
+- **`mcr.microsoft.com/devcontainers` and `mcr.microsoft.com/vscode/devcontainers` images are now published from [devcontainers/images](https://github.com/devcontainers/images).**
+
+**For new Templates/Features, you can now self-publish in-tool by following the steps one of the quick start repositories: [Templates quick start](https://github.com/devcontainers/features), [Features quick start](https://github.com/devcontainers/features).**
+
+**As a result, this repository only used for community definitions that have not been migrated elsewhere by their owners. If you are a community owner and want us to remove an existing definition here, feel free to submit a PR to do so!**
+
+**For more details, you can review the [announcement issue](https://github.com/microsoft/vscode-dev-containers/issues/1589).**
+
+---
+
 # VS Code Remote / GitHub Codespaces Container Definitions
 
 <table style="width: 100%; border-style: none;"><tr>
@@ -67,7 +81,7 @@ Each `RUN` statement creates a Docker image "layer". If one `RUN` statement adds
 
 Have a question or feedback?
 
-- Contribute or provide feedback for the [VS Code Remote](https://github.com/Microsoft/vscode-remote-release/blob/main/CONTRIBUTING.md) extensions or [GitHub Codespaces](https://github.com/github/feedback/discussions/categories/codespaces-feedback).
+- Contribute or provide feedback for the [VS Code Remote](https://github.com/Microsoft/vscode-remote-release/blob/main/CONTRIBUTING.md) extensions or [GitHub Codespaces](https://github.com/github/feedback/discussions/categories/codespaces).
 - Search [existing issues](https://github.com/Microsoft/vscode-dev-containers/issues) with dev container definitions or [report a problem](https://github.com/Microsoft/vscode-dev-containers/issues/new).
 - Contribute a [development container definition](CONTRIBUTING.md#contributing-dev-container-definitions) to the repository.
 - Review and file issues to shape the direction of development containers and the dev container CLI in the [dev container spec repository](https://github.com/microsoft/dev-container-spec).

@@ -12,7 +12,7 @@
 
 ## Variant: 17-bullseye
 
-**Digest:** sha256:819bdbcb6d399f4fdd7c255443dd2effdf5ce594b10670603b92b74a2da24106
+**Digest:** sha256:35426c0964ddb1bba4bd4a5954a9f9072b4517d065180b0ad0b1d1776fb4875e
 
 **Tags:**
 ```
@@ -34,7 +34,7 @@ mcr.microsoft.com/vscode/devcontainers/java:dev-bullseye
 
 | Language / runtime | Version | Path |
 |--------------------|---------|------|
-| [Java](https://adoptopenjdk.net/) | 17.0.3 | /usr/local/ |
+| [Java](https://adoptopenjdk.net/) | 17.0.4 | /usr/local/ |
 
 **Tools installed using git**
 
@@ -47,7 +47,7 @@ mcr.microsoft.com/vscode/devcontainers/java:dev-bullseye
 
 | Tool | Version | Path |
 |------|---------|------|
-| [SDKMAN!](https://github.com/sdkman/sdkman-cli) | 5.15.0 | /usr/local/sdkman |
+| [SDKMAN!](https://github.com/sdkman/sdkman-cli) | 5.16.0 | /usr/local/sdkman |
 
 **Additional linux tools and packages**
 
@@ -98,7 +98,7 @@ mcr.microsoft.com/vscode/devcontainers/java:dev-bullseye
 
 ## Variant: 17-buster
 
-**Digest:** sha256:79bbe1610130023c97e450bd10de7511282ceb2855a9bb15333d25f5018b8498
+**Digest:** sha256:d3b347bcf6d7a4caefb817d6fc9e01d00ef24ef3319f4ac945da71397b35a2e7
 
 **Tags:**
 ```
@@ -117,7 +117,7 @@ mcr.microsoft.com/vscode/devcontainers/java:dev-17-buster
 
 | Language / runtime | Version | Path |
 |--------------------|---------|------|
-| [Java](https://adoptopenjdk.net/) | 17.0.3 | /usr/local/ |
+| [Java](https://adoptopenjdk.net/) | 17.0.4 | /usr/local/ |
 
 **Tools installed using git**
 
@@ -130,7 +130,7 @@ mcr.microsoft.com/vscode/devcontainers/java:dev-17-buster
 
 | Tool | Version | Path |
 |------|---------|------|
-| [SDKMAN!](https://github.com/sdkman/sdkman-cli) | 5.15.0 | /usr/local/sdkman |
+| [SDKMAN!](https://github.com/sdkman/sdkman-cli) | 5.16.0 | /usr/local/sdkman |
 
 **Additional linux tools and packages**
 
@@ -182,7 +182,7 @@ mcr.microsoft.com/vscode/devcontainers/java:dev-17-buster
 
 ## Variant: 11-bullseye
 
-**Digest:** sha256:2190f3c15fb18468a40439fc41c7345a976a8c44f7a4c601186526abd2bc765f
+**Digest:** sha256:f04a25cc057d4e858812ba2f576c1376003408716b8d49b3fada0818a0a14b90
 
 **Tags:**
 ```
@@ -203,7 +203,7 @@ mcr.microsoft.com/vscode/devcontainers/java:dev-11-jdk-bullseye
 
 | Language / runtime | Version | Path |
 |--------------------|---------|------|
-| [Java](https://adoptopenjdk.net/) | 11.0.15 | /usr/local/ |
+| [Java](https://adoptopenjdk.net/) | 11.0.16 | /usr/local/ |
 
 **Tools installed using git**
 
@@ -216,7 +216,7 @@ mcr.microsoft.com/vscode/devcontainers/java:dev-11-jdk-bullseye
 
 | Tool | Version | Path |
 |------|---------|------|
-| [SDKMAN!](https://github.com/sdkman/sdkman-cli) | 5.15.0 | /usr/local/sdkman |
+| [SDKMAN!](https://github.com/sdkman/sdkman-cli) | 5.16.0 | /usr/local/sdkman |
 
 **Additional linux tools and packages**
 
@@ -267,7 +267,7 @@ mcr.microsoft.com/vscode/devcontainers/java:dev-11-jdk-bullseye
 
 ## Variant: 11-buster
 
-**Digest:** sha256:54807aa9f58ba536d12be395f0a8d790642b8f3c4ca937c2be29b7b92d116124
+**Digest:** sha256:38eb4ca02035c57c6d4417d061bbe1aca6362619596b80f8e018a0ece0aa5ef7
 
 **Tags:**
 ```
@@ -287,7 +287,7 @@ mcr.microsoft.com/vscode/devcontainers/java:dev-11-jdk-buster
 
 | Language / runtime | Version | Path |
 |--------------------|---------|------|
-| [Java](https://adoptopenjdk.net/) | 11.0.15 | /usr/local/ |
+| [Java](https://adoptopenjdk.net/) | 11.0.16 | /usr/local/ |
 
 **Tools installed using git**
 
@@ -300,7 +300,7 @@ mcr.microsoft.com/vscode/devcontainers/java:dev-11-jdk-buster
 
 | Tool | Version | Path |
 |------|---------|------|
-| [SDKMAN!](https://github.com/sdkman/sdkman-cli) | 5.15.0 | /usr/local/sdkman |
+| [SDKMAN!](https://github.com/sdkman/sdkman-cli) | 5.16.0 | /usr/local/sdkman |
 
 **Additional linux tools and packages**
 
